@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+
+</head>
+<body>
+   
+<section id="head" class="py-5">
+    <div class="container w-50 home">
+        <div class="text-center">
+            <h1>Smart Login System</h1>
+            <input  placeholder="Enter your email" id="enterYourEmail" class="form-control my-5">
+            <input  placeholder="Enter your password" type="password" id="enterYourPassword" class="form-control my-5">
+            <p id="valids" class="d-none error">All inputs is required</p>
+            <button id="btnLog" onclick="signIn()" class="btn btn-outline-info w-100 mt-4">Login</button>
+            <p class="text-center mt-4 account">Don’t have an account? <a class="text-primary" href="./index.html">Signin</a></p>
+        </div>
+      
+    </div>
+</section>
+<script src="./js/index.js"></script>
+</body>
+</html>

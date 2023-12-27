@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.error{
+    color: red;
+}
+
+.account{
+    color: white;
+}
+.home{
+    box-shadow: 0 0 30px rgba(255, 255, 255, 1);
+}
+
+.welcome{
+    text-align: center;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 75%;
+
+    
+}
